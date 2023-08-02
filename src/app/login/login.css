@@ -1,4 +1,4 @@
-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     height: 3rem;
@@ -13,29 +13,29 @@ nav {
 }
 
 
-nav ul {
+.navbar ul {
     display: flex;
     gap: 1rem;
     list-style-type: none;
 }
 
-nav :last-child {
+.navbar :last-child {
     padding-right: 0.5rem;
 }
 
-nav :first-child {
+.navbar :first-child {
     padding-left: 0.5rem;
 }
 
-nav h4 {
+.navbar h4 {
     color: white;
 }
 
-nav a {
+.navbar a {
     text-decoration: none;
 }
 
-nav ul a:hover {
+.navbar ul a:hover {
     text-decoration: underline;
     color: white;
 }

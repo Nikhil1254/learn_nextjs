@@ -4,7 +4,7 @@ import './login.css';
 export default function Layout({ children }) {
 
     return <>
-        <nav>
+        <nav className="navbar">
             <h4>Login Menu</h4>
             <ul>
                 <li><Link href="/login">Login</Link></li>
