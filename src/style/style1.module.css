@@ -1,0 +1,9 @@
+.main {
+    padding: 1rem;
+    background-color: lightcyan;
+    border-radius: "3px";
+}
+
+.bgGrey{
+    background-color: grey;
+}
