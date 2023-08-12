@@ -1,6 +1,8 @@
-export default function HomePage() {
+export default function HomePage({title}) {
 
     return <>
-        <h1>This is Home Page</h1>
+        <h1>Learn SSG in NextJs</h1>
     </>
 }
+
+
